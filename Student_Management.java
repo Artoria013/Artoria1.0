@@ -84,7 +84,7 @@ public class Student_Management {
             //计算成绩平均值
             float arg = ((sC + sE + sM) / 3.0f);//在=后面加入(float)
             //将数据传入学生信息对象
-            Student st = new Student();
+            Student st = new Student(name, sC, sM, sE, arg);
             st.setName(name);
             st.setScore_Chinese(sC);
             st.setScore_Math(sM);
